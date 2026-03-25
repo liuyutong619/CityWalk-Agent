@@ -1,0 +1,11 @@
+{
+  "collection": "xiaohongshu_citywalk_example",
+  "input_jsonl": "rag/data/example_chunks.jsonl",
+  "qdrant_path": "rag/data/qdrant_local_example",
+  "embedding_model": "openai/text-embedding-3-large",
+  "dimensions": 3072,
+  "chunks_indexed": 5,
+  "recreate": true,
+  "note_count": 5,
+  "description": "Sanitized Wuhan example index shipped for the open-source demo."
+}

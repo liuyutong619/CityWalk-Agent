@@ -1,0 +1,34 @@
+# CityWalk Agent 依赖包列表
+# 核心框架
+langgraph>=1.1.3
+langchain>=1.2.13
+langchain-core>=1.2.22
+langchain-mcp-adapters>=0.2.2
+
+# LLM 相关
+openai>=2.29.0
+pydantic>=2.12.5
+
+# RAG 相关
+qdrant-client>=1.17.1
+
+# 地图工具
+requests>=2.32.5
+
+# 前端界面
+streamlit>=1.55.0
+
+# 环境变量管理
+python-dotenv>=1.2.2
+
+# 搜索工具
+tavily-python>=0.7.23
+
+# 类型检查
+typing-extensions>=4.15.0
+
+# 异步支持
+aiohttp>=3.13.3
+
+# MCP 协议支持
+mcp>=1.26.0
