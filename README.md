@@ -91,7 +91,7 @@ python -m streamlit run app.py
 - `rag/data/example_chunks.jsonl`：对应的 chunk 数据
 - `rag/data/qdrant_local_example/`：预构建好的本地 Qdrant toy index
 
-默认配置已经指向这套 example 资产，因此克隆仓库后无需自行准备真实帖子，也可以直接体验完整的 CityWalk Agent 流程。
+默认配置已经指向example，因此克隆仓库后无需自行准备真实帖子，也可以直接体验完整的 CityWalk Agent 流程。
 
 需要注意的是：**检索时的 query embedding 仍然通过外部 embedding API 生成**，所以运行前依然需要配置可用的 embedding API 凭证。
 
